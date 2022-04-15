@@ -1,0 +1,8 @@
+version: "3.7"
+ 
+services:
+  convertman:
+    build:
+      context: ./
+    ports:
+      - 8080:8080
